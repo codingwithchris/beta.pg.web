@@ -55,7 +55,7 @@ return [
 			]
 
 		],
-
+		
 		/**
 		 * Series Taxonomy
 		 */

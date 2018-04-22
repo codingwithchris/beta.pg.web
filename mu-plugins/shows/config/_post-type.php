@@ -3,6 +3,10 @@ namespace Playground\Shows;
 
 return [
 
+	/**
+	 * Register Our Shows Custom Post Type
+	 */
+
 	'post_type' => [
 
 		'names' => [

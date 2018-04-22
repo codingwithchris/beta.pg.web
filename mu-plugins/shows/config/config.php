@@ -27,6 +27,8 @@ return array_merge(
 	],
 
 	include_once( __DIR__ . '/_post-type.php' ),
-	include_once( __DIR__ . '/_taxonomy.php' )
-
+	include_once( __DIR__ . '/_taxonomy.php' ),
+	include_once( __DIR__ . '/_shortcodes.php' ),
+	include_once( __DIR__ . '/_assets.php' )
+	
 );
