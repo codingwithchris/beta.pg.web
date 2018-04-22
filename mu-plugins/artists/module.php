@@ -11,6 +11,9 @@
 
 namespace Playground\Artists;
 use Reactor\Factory\ModuleFactory;
+use PostTypes\PostType;
+use PostTypes\Taxonomy;
+
 
 
 // If this file is called directly, abort.

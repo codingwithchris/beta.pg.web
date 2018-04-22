@@ -72,11 +72,11 @@ abstract class ModuleFactory{
 			$this->module_dir	= $module_dir;
 			$this->module_url 	= $module_url;
 
-			$this->name 		= $this->get_config( 'settings', 'name' );
-			$this->version		= $this->get_config( 'settings', 'version' );
-			$this->description	= $this->get_config( 'settings', 'description' );
+			$this->name 		= $this->config( 'settings', 'name' );
+			$this->version		= $this->config( 'settings', 'version' );
+			$this->description	= $this->config( 'settings', 'description' );
 
-			$this->autoload( $this->get_config( 'files' ) );
+			$this->autoload( $this->config( 'files' ) );
 
 	}
 
@@ -103,7 +103,7 @@ abstract class ModuleFactory{
 	/**
 	 * Get the config file or a value from the config
 	 */
-	public function get_config( $key = '', $value = '' ){
+	public function config( $key = '', $value = '' ){
 
 	    // If we are passing in a key, let's get the value
 	    if( $key && ! $value){

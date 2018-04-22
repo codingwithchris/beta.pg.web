@@ -1,18 +1,32 @@
 <?php
 namespace Playground\Shows;
 
-return array(
 
-	'settings' => array(
+// Merge all config files into a single config object
+// to be loaded into our theme
+return array_merge(
 
-		'name'			=>	'shows',
-		'version'		=>	'1.0.0',
-		'description'	=>	'Handles all show related functionality',
-	),
+	[
+
+		'settings' => [
+
+			'name'			=>	'shows',
+			'version'		=>	'1.0.0',
+			'description'	=>	'Handles all show related functionality',
+
+		],
 
 
-	'files'	=> array(
+		'files'	=> [
 
-	),
+			'src/custom/taxonomy.php',
+			'src/custom/post-type.php'
+
+		],
+
+	],
+
+	include_once( __DIR__ . '/_post-type.php' ),
+	include_once( __DIR__ . '/_taxonomy.php' )
 
 );

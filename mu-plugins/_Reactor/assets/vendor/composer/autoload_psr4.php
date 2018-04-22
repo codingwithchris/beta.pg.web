@@ -8,5 +8,6 @@ $baseDir = dirname(dirname($vendorDir));
 return array(
     'Sober\\Intervention\\Module\\' => array($vendorDir . '/soberwp/intervention/src/modules'),
     'Sober\\Intervention\\' => array($vendorDir . '/soberwp/intervention/src'),
+    'PostTypes\\' => array($vendorDir . '/jjgrainger/posttypes/src'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
 );

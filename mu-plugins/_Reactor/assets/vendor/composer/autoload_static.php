@@ -16,6 +16,10 @@ class ComposerStaticInitb8f2a65207134e3530900a00dd5af2c9
             'Sober\\Intervention\\Module\\' => 26,
             'Sober\\Intervention\\' => 19,
         ),
+        'P' => 
+        array (
+            'PostTypes\\' => 10,
+        ),
         'C' => 
         array (
             'Composer\\Installers\\' => 20,
@@ -30,6 +34,10 @@ class ComposerStaticInitb8f2a65207134e3530900a00dd5af2c9
         'Sober\\Intervention\\' => 
         array (
             0 => __DIR__ . '/..' . '/soberwp/intervention/src',
+        ),
+        'PostTypes\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jjgrainger/posttypes/src',
         ),
         'Composer\\Installers\\' => 
         array (
