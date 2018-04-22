@@ -32,6 +32,12 @@ return array(
 
 	'modules'	=> array(
 
+		'analytics',
+		'artists',
+		'classes',
+		'shows',
+		'sponsors',
+		
 	)
 
 );
